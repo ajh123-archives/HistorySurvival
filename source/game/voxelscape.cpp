@@ -281,7 +281,7 @@ void Voxelscape::renderMainMenu(UIContext& uiState)
         ImVec2(0.5F, 0.5F));
     ImGui::SetNextWindowSize(ImVec2(0.F, 0.F));
     ImGui::Begin(
-        "Voxelscape",
+        "History Survival",
         0,
         ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoMove | ImGuiWindowFlags_NoCollapse);
 

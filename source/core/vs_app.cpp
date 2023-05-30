@@ -131,7 +131,7 @@ int VSApp::initializeGLFW()
     const auto width = 1280;
     const auto height = 720;
 
-    window = glfwCreateWindow(width, height, "Voxelscape", nullptr, nullptr);
+    window = glfwCreateWindow(width, height, "History Survival", nullptr, nullptr);
     if (window == nullptr)
     {
         VSLog::Log(VSLog::Category::Core, VSLog::Level::critical, "Failed to create GLFW window");

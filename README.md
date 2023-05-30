@@ -1,8 +1,8 @@
-# Voxelscape
+# History survival
 
-![CI](https://github.com/lolleko/voxelscape/workflows/CI/badge.svg)
+![CI](https://github.com/ajh123-development/HistorySurvival/workflows/CI/badge.svg)
 
-Custom voxel engine written from scratch with OpenGL 4.1. And a small RTS style game on top of it.
+A game forked from [Voxelscape](https://github.com/lolleko/voxelscape/).
 
 ![Screenshot](screenshots/sdf.png?raw=true "Screenshot")
 
