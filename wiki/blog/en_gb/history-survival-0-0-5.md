@@ -1,0 +1,31 @@
+---
+title: 'History Survival 0.0.5'
+pubDate: '2023-06-05'
+description: 'A brand new engine!'
+authors: ['ajh123']
+tags: ["miners online", "release", "history survival"]
+---
+
+## History Survival 0.0.5 release
+
+History Survival was rewritten (again). Now it uses [Voxelscape](https://github.com/lolleko/voxelscape/) as a base. More features will be implemented later. Below is a list of some features.
+
+Find the [GitHub Release](https://github.com/ajh123-development/HistorySurvival/releases/tag/v0.0.5)
+
+### Features:
+
+* Distance Field Shadows
+* Voxel Ambient Occlusion
+* Simple point lights (block emission)
+* Basic RTS implemented using ECS
+* Voxel rendered using advanced instancing, instead of the more popular greedy meshing
+* Custom voxel model editor
+* Simple terrain gerenation, with a few different biomes
+
+### Screenshots
+
+![Screenshot](https://github.com/ajh123-development/HistorySurvival/raw/master/screenshots/sdf.png?raw=true "Screenshot")
+
+| ![RTS](https://github.com/ajh123-development/HistorySurvival/raw/master/screenshots/rts.png?raw=true "Screenshot") | ![Main](https://github.com/ajh123-development/HistorySurvival/raw/master/screenshots/main.png?raw=true "Screenshot")    |
+|---|---|
+| ![Ambient Occlusion](https://github.com/ajh123-development/HistorySurvival/raw/master/screenshots/ao.png?raw=true "Screenshot")  | ![light](https://github.com/ajh123-development/HistorySurvival/raw/master/screenshots/light.png?raw=true "Screenshot") |
