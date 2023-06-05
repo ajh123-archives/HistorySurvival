@@ -2,8 +2,6 @@ name: CI
 
 on:
   push:
-    branches:
-      - "master"
     tags:
       - "*"
   pull_request:
@@ -64,6 +62,6 @@ jobs:
         if: startsWith(github.ref, 'refs/tags/')
         with:
           files: build/voxelscape-${{ env.VCPKG_DEFAULT_TRIPLET }}.zip
-          body_path: ${{ github.workspace }}/wiki/blog/en_gb/history-survival-$GITHUB_REF_NAME.md
+          body_path: ${{ github.workspace }}/wiki/blog/en_gb/changelogs/$GITHUB_REF_NAME.md
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
