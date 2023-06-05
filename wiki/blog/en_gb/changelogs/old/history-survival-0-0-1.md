@@ -1,5 +1,5 @@
 ---
-title: 'History Survival 0.0.1'
+title: 'History Survival 0.0.1o'
 pubDate: '2022-05-10'
 description: 'The very first version is now out!'
 authors: ['ajh123']
