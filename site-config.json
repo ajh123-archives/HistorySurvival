@@ -1,0 +1,32 @@
+{
+	"github_edit_url": "https://github.com/ajh123-development/HistorySurvival/tree/main",
+	"content_path": "wiki",
+	"site_slug": "history_survival",
+	"site_name": {
+		"en_gb": "History Survival"
+	},
+	"projects": {
+		"docs": {
+			"en_gb": {
+				"sidebar": [
+					{
+						"text": "Introduction", 
+						"link": "/docs/history_survival/en_gb"
+					},
+					{
+						"text": "Multiplayer",
+						"link": "/docs/history_survival/en_gb/multiplayer"
+					},
+					{
+						"text": "Text Formaatting",
+						"link": "/docs/history_survival/en_gb/formatting-text"
+					},
+					{
+						"text": "JSON text",
+						"link": "/docs/history_survival/en_gb/json-text"
+					}
+				]
+			}
+		}
+	}
+}
