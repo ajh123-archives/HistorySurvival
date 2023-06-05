@@ -57,13 +57,13 @@ jobs:
       - name: Package
         if: startsWith(github.ref, 'refs/tags') && matrix.os != 'windows-latest'
         run: cmake --build build --target package
-      - run: mv build/voxelscape.zip build/voxelscape-${{ env.VCPKG_DEFAULT_TRIPLET }}.zip
+      - run: mv build/history_survival.zip build/history_survival-${{ env.VCPKG_DEFAULT_TRIPLET }}.zip
         if: startsWith(github.ref, 'refs/tags')
       - name: Release
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
         with:
-          files: build/voxelscape-${{ env.VCPKG_DEFAULT_TRIPLET }}.zip
+          files: build/history_survival-${{ env.VCPKG_DEFAULT_TRIPLET }}.zip
           body_path: ${{ github.workspace }}/wiki/blog/en_gb/changelogs/$GITHUB_REF_NAME.md
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
